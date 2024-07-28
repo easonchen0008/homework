@@ -1,0 +1,41 @@
+<cardinfo>
+    <cardno cardlevel="g" cardtype="visa">1234-5678-8765-4321</cardno>
+    <cardowner>
+        <name>Kai hung chu</name>
+        <id>m9818019</id>
+	<sin>0857</sin>
+    </cardowner>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116">
+<XPath>ancestor-or-self::node() = /cardinfo/cardowner/sin</XPath>
+</Transform>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>K1PlW9k0f6kXsewhhNp/MS8MP6w=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+I9UOBBw+833yhpueG4C+GiQ49qaTtZtxZ63XWa71YACsB6eyXKTDbkk04CGJXa1emNTAw8/5iQp2
+0u+gjJ/DjF8ZCmVXUotI6ZFxuCWdH5UVdkQhPGGhP02AiAwR79iqUG8oaLoC+ynB3RldfN0DBJd9
+SkmBqnUhQ5s7FBfHhIg=
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+k1zuMpMt/0i8Q987uArSM5jnwA3cRXU+KDBYkNeQsjYG7VPDwiS9G/kODqBJvoGLLlYekn6byttt
+0WKB2DqzadJohw8aF4G0uQcLIhDDpaKfRSaIn+7GI9kap9q6WvOCSIxC3gkEiddadbqeyuryI7Cs
+guKNZzLg0bazng/sQWc=
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+</KeyInfo>
+</Signature></cardinfo>

@@ -1,0 +1,34 @@
+(a) alert udp 134.208.2.236 any -> 134.208.2.254 any (msg:”WORM”;content:”sex”;nocase;)
+是 有這個字且nocase不分大小寫
+
+(b) alert udp any 400 -> 134.208.2.254 900: (msg:”WORM”;content:”|81 F1 03 
+04|”;dsize:>1000;)
+否 是500 1000 不適400 900
+
+
+(c) alert icmp any any -> any any (msg:”WORM”;content:”thefinal”;nocase;dsize:>1000;)
+否 不適icmp是udp
+
+(d) alert udp any any -> any any (msg:”WORM”;content:”|07|”;offset:3;dsize:>1000;)
+否 offset:3從第三個 但是07在第一個
+
+(e) alert udp 134.208.2.236 500 -> 134.208.2.0/24 1000 (msg:”WORM”;content:”|53 65 
+78|”;dsize:>1000;)
+是  大小寫對ip也對
+
+(f) alert udp !134.208.2.236 500 -> 134.208.2.254 1000 (msg:”WORM”;content:”|6C|”;
+dsize:>1000;)
+否 驚嘆號表那個以外的，代表收步道134.208.2.236 500這個ip位址發的
+
+(g) alert udp 134.208.2.236 500 -> 134.208.2.254 1000 (msg:”WORM”;content:”|77 6F 72 
+6D|”;dsize:>500;)
+否 大小寫錯
+
+(h) alert udp any any -> 134.208.2.254 1000 (msg:”WORM”;content:”|54 68 65|”;dsize:<1000;)
+否dsize1500大於1000
+
+(i) alert udp 134.208.2.236 500 <- 134.208.2.254 1000 (msg:”WORM”;content:”worm”;nocase;dsize:>1000;)
+否 箭頭錯邊
+
+(j) alert udp 134.208.2.236 500: -> 134.208.2.254 :1000 (msg:”WORM”;content:”|74 68 65|”;nocase;content:”final”;dsize:>1000;
+是 thefinal是對的且nocase不分大小寫 500:有包含500

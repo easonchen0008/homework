@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xslt"?>
+<index>
+   <page>
+	      <title>Introduction</title>
+	      <name>introduction.xml</name>
+   </page>
+   <page>
+	      <title>My family</title>
+	      <name>myfamily.xml</name>
+   </page>
+   <page>
+	      <title>Favorite drinks</title>
+	      <name>favoritedrinks.xml</name>
+   </page>
+   <page>
+	      <title>Favorite restaurant</title>
+	      <name>favoriterestaurant.xml</name>
+   </page>
+</index>

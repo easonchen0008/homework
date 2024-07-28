@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/web3.min.js"></script>
+</head>
+<body>
+    <h2>簽章平台</h2>
+    
+    <input type="text" id="A1" placeholder="請輸入學號">
+    <h2>雜湊值：<em id="hash_value"></em></h2>
+    
+    <input type="button" id="send_do_hash" value="雜湊">
+    <script>
+        var web3 = new Web3(window.web3.currentProvider);
+        async function send_do_hash(){
+            var accounts = await web3.eth.getAccounts();
+            var A1 = document.getElementById('A1').value;
+            const hash_value = await web3.utils.sha3(A1);
+            document.getElementById('hash_value').textContent = hash_value;
+        }
+        document.getElementById('send_do_hash').addEventListener('click',send_do_hash);
+    </script>
+    <h1>
+
+    <input type="text" id="A" placeholder="請輸入學號雜湊">
+    <input type="text" id="B" placeholder="請輸入位址">
+    <h2>簽章值：<em id="signature_text"></em></h2>
+    
+    <input type="button" id="send" value="簽章">
+    <script>
+        var web3 = new Web3(window.web3.currentProvider);
+        async function send(){
+            var accounts = await web3.eth.getAccounts();
+            var A = document.getElementById('A').value;
+            var B = document.getElementById('B').value;
+            const sig1 = await web3.eth.personal.sign(A,B);
+            document.getElementById('signature_text').textContent = sig1;
+        }
+        document.getElementById('send').addEventListener('click',send);
+    </script>
+    <h1>
+
+    <input type="text" id="C" placeholder="請輸入雜湊">
+    <input type="text" id="D" placeholder="請輸入簽章">
+    <h2>簽章者：<em id="hash_text"></em></h2>
+    <input type="button" id="send_hash" value="反找簽章者">
+    <script>
+        var web3 = new Web3(window.web3.currentProvider);
+        async function send_hash(){
+            var accounts = await web3.eth.getAccounts();
+            var C = document.getElementById('C').value;
+            var D = document.getElementById('D').value;
+            const hash1 = await web3.eth.personal.ecRecover(C,D);
+            document.getElementById('hash_text').textContent = hash1;
+        }
+        document.getElementById('send_hash').addEventListener('click',send_hash);
+    </script>   
+
+</body>
+</html>

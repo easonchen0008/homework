@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<addressbook>
+	<name sex='M'>Austin
+		<address>123號</address>
+		<cellphone>123456789</cellphone>
+		<sin>789</sin>
+	</name>
+	<name sex='F'>Ass
+		<address>77號</address>
+		<cellphone>0988778899</cellphone>
+		<sin>123</sin>
+	</name>
+</addressbook>

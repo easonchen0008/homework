@@ -1,0 +1,20 @@
+-----BEGIN PGP MESSAGE-----
+Version: Encryption Desktop 10.4.2 (Build 502) - not licensed for commercial use: www.pgp.com
+Charset: utf-8
+
+qANQR1DBwEwDEQXzch7+kwcBB/9vLlvdBQmPEacyk+j4S4nodz77CLS8NQUjleGx
+qcjwbJ0fY7J8Zu/IW58PRmWmfVdOVXIQxfqOpugXiELZj4D9QjzRnRrf6G6fyboQ
+HIGCTi1UrV8jlnnEXIM5B/z1SfgD3ftFgspZ8BAcqMgflGRayTe2FEWE4RsBgLID
+wuyOZhT5n++ci91ykYWoF/eLuwlR06gWRcesBQwCKHrbvF6NPyKEA7phF/jFYd0U
+/D7NCPeNOCmYGtwIRL+WLlrTdCxT9P3hVOEunTjJLlfZGh5QrwDIveGYXMqxsAUt
+IEXnq3P2qzwA0+ZKBKocvTiMONbNUUUgwliBcjjzQA6JFdRU0sChAcSuTwDMHCjS
+IKiGbJjjClycYdiiZAn7xZQEe/MQj7CeDn3J8rzAiva2yXz1huwpZryucFHEKdag
+xiMLtunR4wQ6jR8NQnshDAcV8vlpEqXk9fUmCVIjfwPL6fQPE2XPFDmAWfSAafX6
+SAGM1TIIjv1qy7JVzDPzI2GDoNYkv0rqjwQoFh4Rt05+Dq/Y1cER7EaWi60+LOh0
+DHPhbCtpGVjwbjyl4AOJwN3NJjBi8Woy4rOPrye/r+WYBGl8WZMaLbBJXhgNkyXd
+rricrSHlc15MAFEjsRv4BSOWJZ8TMD8pA7t12+E9lJxolM9+yG5YoxINtNM8Rqzp
+LTgUJy88L13BgvL7cZYCrhCHVBWllTZw/8ftyNECv1HtcieLYsiv98eAlUgNCHvr
+vefO+y0gOg6/1AJckXI8StWegscxxTER4hGKgNAHcm7Z0iVQQphAhX9ivp03totz
+tH2z+jN35IA=
+=AXhu
+-----END PGP MESSAGE-----

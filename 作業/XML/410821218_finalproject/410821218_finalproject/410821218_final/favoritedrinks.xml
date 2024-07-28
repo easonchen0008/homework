@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="favoritedrinks.xslt"?>
+<introduction> 
+   <feature>
+      麥香綠茶
+   </feature>
+   <feature>
+      便宜
+   </feature>
+   <feature>
+      好喝
+   </feature>
+   <feature>
+      解膩
+   </feature>
+   <feature>
+      熟悉的麥香最對味
+   </feature>
+</introduction>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="favoriterestaurant.xslt"?>
+<introduction> 
+   <feature>
+      隨意鳥地方
+   </feature>
+   <feature>
+      好吃
+   </feature>
+   <feature>
+      風景很好
+   </feature>
+   <feature>
+      但是好貴
+   </feature>
+   <feature>
+      照片是那天的風景
+   </feature>
+</introduction>
